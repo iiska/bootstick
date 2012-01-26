@@ -1,15 +1,15 @@
 Configuration files and documentation for creating usb stick
-containing multiple Lnux Live images selectable from Grub2 menu.
+containing multiple Linux Live images selectable from Grub2 menu.
 
 ## Usage
 
 Download disk images to disks directory.
 
-Partition, format and install boot loader to usb stick.
+Partition, format and install boot loader to usb stick as root.
 
     mkfs.vfat -n Bootstick /dev/sdd1
     mount /dev/sdd1 /media/Bootstick
-    grub2-install --no-floppy --boot-directory=/media/Bootstick/grub2 /dev/sdd
+    grub2-install --no-floppy --boot-directory=/media/Bootstick /dev/sdd
 
 Copy grub2/grub.cfg and disks directory to stick.
 
