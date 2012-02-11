@@ -25,3 +25,9 @@ Directory tree on the stick should look like this:
     `-- grub2
         |-- number of files installed by grub2-install...
         `-- grub.cfg
+
+## Known issues & TODO
+
+Couldn't boot Fedora images from iso loopback. Probably related to bug [650672][rh650672]
+
+[rh650672]: https://bugzilla.redhat.com/show_bug.cgi?id=650672
