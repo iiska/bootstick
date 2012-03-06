@@ -60,4 +60,4 @@ SeaTools, modify initrd16 line for other DOS images.
 Couldn't boot Fedora images from iso loopback. Probably related to bug [650672][rh650672]
 
 [rh650672]: https://bugzilla.redhat.com/show_bug.cgi?id=650672
-[seatools]: "http://www.seagate.com/www/en-us/support/downloads/seatools"
+[seatools]: http://www.seagate.com/www/en-us/support/downloads/seatools
