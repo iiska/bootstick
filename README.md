@@ -26,7 +26,7 @@ Directory tree on the stick should look like this:
         |-- number of files installed by grub2-install...
         `-- grub.cfg
 
-### Special notes about SeaTools DOS image
+### <a name="seatools">Special notes about SeaTools DOS image</a>
 
 I had to do following to be able to boot SeaTools hard drive
 diagnostics utilities boot image. General idea should probably work
